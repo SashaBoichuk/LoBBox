@@ -1,0 +1,39 @@
+* {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-image: url(Photos/Rectangle\ 181.png);
+    background-repeat: round;
+}
+
+.bcg_block {
+    display: flex;
+    height: 340px;
+}
+
+.bcg_block img {
+    width: 340px;
+}
+
+.svg_block {
+    display: flex;
+}
+
+.vector {
+    z-index: 20;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.vector img {
+    display: flex;
+    justify-content: flex-end;
+    height: 500px;
+    width: 700px;
+}
